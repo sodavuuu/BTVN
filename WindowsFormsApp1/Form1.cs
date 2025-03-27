@@ -12,10 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class SimpleEvent : Form
     {
-        public SimpleEvent()
-        {
-            InitializeComponent();
-        }
+      
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -30,6 +27,24 @@ namespace WindowsFormsApp1
         private void SimpleEvent_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Form was clicked");
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // SimpleEvent
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "SimpleEvent";
+            this.Load += new System.EventHandler(this.SimpleEvent_Load_1);
+            this.ResumeLayout(false);
+
+        }
+
+        private void SimpleEvent_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
