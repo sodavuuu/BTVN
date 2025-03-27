@@ -40,6 +40,8 @@
             this.btnExercise7 = new System.Windows.Forms.Button();
             this.btnExercise8 = new System.Windows.Forms.Button();
             this.btnExercise9 = new System.Windows.Forms.Button();
+            this.btnExercise10 = new System.Windows.Forms.Button();
+
             this.btnWindowsForms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -166,6 +168,16 @@
             this.btnExercise9.UseVisualStyleBackColor = true;
             this.btnExercise9.Click += new System.EventHandler(this.btnExercise9_Click);
             // 
+            // btnExercise
+            // 
+            this.btnExercise10.Location = new System.Drawing.Point(120, 220);
+            this.btnExercise10.Name = "btnExercise10";
+            this.btnExercise10.Size = new System.Drawing.Size(100, 23);
+            this.btnExercise10.TabIndex = 11;
+            this.btnExercise10.Text = "Exercise 10";
+            this.btnExercise10.UseVisualStyleBackColor = true;
+            this.btnExercise10.Click += new System.EventHandler(this.btnExercise10_Click);
+            // 
             // btnWindowsForms
             // 
             this.btnWindowsForms.Location = new System.Drawing.Point(14, 260);
@@ -214,6 +226,8 @@
         private System.Windows.Forms.Button btnExercise7;
         private System.Windows.Forms.Button btnExercise8;
         private System.Windows.Forms.Button btnExercise9;
+        private System.Windows.Forms.Button btnExercise10;
+
         private System.Windows.Forms.Button btnWindowsForms;
     }
 }

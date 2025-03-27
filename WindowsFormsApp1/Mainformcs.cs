@@ -77,7 +77,11 @@ namespace WinFormsExercises
             Form9 form = new Form9();
             form.ShowDialog();
         }
-
+        private void btnExercise10_Click(object sender, EventArgs e)
+        {
+            Form9 form = new Form9();
+            form.ShowDialog();
+        }
         private void btnWindowsForms_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("Firefox", "http://www.windowsforms.net");
